@@ -1,0 +1,61 @@
+.teste{
+    
+    width: 50%;
+    margin: 0 auto;
+}
+ .teste span{
+     color: silver;
+ }
+
+
+input{
+
+    height: 70px;
+    width: 70%;
+    border: 0px;
+    padding-left: 24px;
+}
+
+button{
+
+    height: 70px;
+    width: 150px;
+    background-color: #04d361;
+    border: 0px;
+    color : white
+}
+
+body{
+    background-image: url("../img/github.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #f0f0f5;
+}
+
+.cards{
+    width: 50%;
+    margin: 30px auto;
+
+}
+.card{
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.card b{
+
+margin: 20px;
+margin-top: 40px;
+
+
+}
+
+.imagemUsuario{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+
+}
