@@ -1,61 +1,66 @@
-.teste{
-    
-    width: 50%;
-    margin: 0 auto;
-}
- .teste span{
-     color: silver;
- }
-
-
-input{
-
-    height: 70px;
-    width: 70%;
-    border: 0px;
-    padding-left: 24px;
-}
-
-button{
-
-    height: 70px;
-    width: 150px;
-    background-color: #04d361;
-    border: 0px;
-    color : white
-}
-
 body{
-    background-image: url("../img/github.svg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-color: #f0f0f5;
+    text-align: center;
+    background-color:black;
+    background-image: url('/img/escudo.jpg');
+    background-repeat:repeat;
+    background-size: 50%;
+    
+}
+img{
+    background-size: 40%;
+    padding-left: 40%;
 }
 
-.cards{
-    width: 50%;
-    margin: 30px auto;
-
-}
-.card{
-    display: flex;
-    width: 100%;
-    background-color: #ffffff;
-    padding-left: 20px;
-    font-size: 20px;
+h1{ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:SpringGreen;
+    
 }
 
-.card b{
-
-margin: 20px;
-margin-top: 40px;
-
-
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    border: 3px solid DarkGray;
+    display: inline-block;
 }
 
-.imagemUsuario{
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
+.o{
+    position: relative;
 
 }
+.o:after{
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+
+}
+.x:after{
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+input[type = "submit"]{
+    color: white;
+    background-color: 	#3CB371;
+    font-weight: bold;
+    padding: 10px;
+    width: 10%;
+    border-radius: 10px;
+    border: none;
+}
+
